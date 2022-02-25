@@ -3,46 +3,93 @@
   <head>
     <meta charset="UTF-8">
     <title>-Portfolio JV</title>
+    <style>
+
+      h1 {
+        color: #8c9da6;
+        text-align: center;
+        text-shadow: 8px 8px 14px #000000
+      }
+
+      #fonte-h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      body {
+        background-color: #002A32;
+        color: #C1CAD6;
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 200px;
+        width: 300px
+      }
+
+      li {
+        list-style: none
+      }
+
+      h2 {
+        color: #8c9da6;
+        text-shadow: 4px 4px 8px #000000
+      }
+
+      .indice-clicavel {
+         background-color: #8c9da6;
+         color: white;
+         padding: 4px 10px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         border-radius: 70px;
+      }
+
+
+      
+    </style>
   </head>
   <body>
-    <h1>João Victor Vieira</h1>
+    <h1 id="fonte-h1">João Victor Vieira</h1>
     <br>
-    <p id="Foto perfil"><img src="/IMG_20211224_060231.jpg" alt="É o que temos pra hoje..." width="200px"></p>
-    <br>
-    <br>
-    <p>
+    </div><p id="Foto-perfil"><img src="/IMG_20211224_060231.jpg" alt="É o que temos pra hoje..." width="200px"></p>
+    <div><p>
         Sou mineiro, nascido em Juiz de Fora, aspirante a <i> Full Stack Web Developer</i> pela <b><i>Trybe</b></i> e <b>fascinado</b> por esse mundo sem fronteiras que é a área de TI!
-    </p>
+    </p></div>
     <br>
-    <p>
-        <b>Minhas principais habilidades</b>:
-    </p>
+    <h2>
+        <b><i>Minhas principais habilidades</b></i>:
+    </h2>
     <ul>
         <li>Boa capacidade analítica</li>
+        <li>Boa capacidade criativa</li>
         <li><b>Facilidade para aprendizagem</b></li>
         <li>Resiliência</li>
-        <li><i>un poquito</i> de HTML</li>
+        <li><i>un poquito</i> de HTML & CSS</li>
     </ul>
-    <a href="https://www.hltv.org/" target="_blank">Melhor site sobre Counter Strike: GO</a>
     <br>
-    <br>
-    <br>
-    <ul>
+    <h2><b><i></i>Índice:</h2></b></i>
+    <ol class="indice-clicavel">
         <li><a href="#hobbies">Meus hobbies</a></li>
-        <li><a href="#Possíveis"">Possíveis áreas de atuação</a></li>
+        <li><a href="#Possíveis">Possíveis áreas de atuação</a></li>
         <li><a href="#contato">Contato</a></li>
-    </ul>
+    </ol>
     <br>
-    <p id="hobbies"><b>Meus hobbies</b>:</p>
+    <br>
+    <br>
+    <br>
+    <h2 id="hobbies"><b><i>Meus hobbies</b></i>:</h2>
     <ol>
-        <li>Jogar</li>
-        <li>Ler sobre nossa história</li>
+        <li>Jogar CS: GO</li>
+        <li>Estudar História e Geopolítica</li>
         <li>Artes Marciais</li>
         <li>Tecnologia</li>
     </ol>
     <br>
-    <br>
-    <p id="Possíveis"><b>Possíveis áreas de atuação</b>:</p>
+    <h2 id="Possíveis"><b><i>Possíveis áreas de atuação</b></i>:</h2>
     <ul>
         <li>Web Development</li>
         <li>CyberSecurity</li>
@@ -51,9 +98,12 @@
     </ul>
     <br>
     <br>
-    <p id="contato"><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-vieira-7a8109186/" target="_blank">Você pode me encontrar aqui</a></p>
+    <p id="contato" class="indice-clicavel"><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-vieira-7a8109186/" target="_blank">Você pode me encontrar aqui;</a></p>
+    <p id="github" class="indice-clicavel"><a href="https://github.com/jvictorjvictor" target="_blank">Meus projetos;</a></p>
+    <br>
+    <a href="https://www.hltv.org/" target="_blank" class="indice-clicavel">Melhor site sobre Counter Strike: GO</a>
     <br>
     <br>
-    <a href="#Foto perfil">Foto de perfil, pode clicar</a>
+    <a href="#Foto-perfil" class="indice-clicavel">Clique sem medo</a>
   </body>
 </html>
