@@ -1,0 +1,52 @@
+      h1 {
+        color: #8c9da6;
+        text-align: center;
+        text-shadow: 8px 8px 14px #000000
+      }
+
+      #fonte-h1 {
+        font-family: 'Segoe UI'
+      }
+
+      body {
+        background-color: #002A32;
+        color: #C1CAD6;
+        text-align: center;
+      }
+
+      .img {
+        border-radius: 100px
+      }
+
+      .description {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        width: 500px;
+        padding-left: 500px;
+        margin-left: 100px;
+      }
+
+      .paragraph {
+        padding: 20px;
+      }
+
+      li {
+        list-style: none
+      }
+
+      h2 {
+        color: #8c9da6;
+        text-shadow: 4px 4px 8px #000000
+      }
+
+      .indice-clicavel {
+        background-color: #8c9da6;
+        color: white;
+        padding: 4px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 70px;
+      }
+
