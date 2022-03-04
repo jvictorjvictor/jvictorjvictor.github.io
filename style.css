@@ -15,20 +15,19 @@
       }
 
       .img {
-        border-radius: 100px
+        border-radius: 100px;
       }
 
       .description {
-        display: flex;
-        align-items: center;
-        text-align: justify;
-        width: 500px;
-        padding-left: 500px;
-        margin-left: 100px;
+        display: inline-flex;
+        text-align: center;
+        width: 900px;
+        padding-left: 0px;
       }
 
       .paragraph {
-        padding: 20px;
+        padding-top: 45px;
+        margin-top: 5%;
       }
 
       li {
@@ -37,16 +36,70 @@
 
       h2 {
         color: #8c9da6;
-        text-shadow: 4px 4px 8px #000000
+        text-shadow: 4px 4px 8px #000000;
+        margin-left: 40px;
       }
 
       .indice-clicavel {
-        background-color: #8c9da6;
-        color: white;
-        padding: 4px 10px;
+        background-color: gray;
+        opacity: 60%;
+        box-sizing: border-box;
         text-align: center;
-        text-decoration: none;
         display: inline-block;
-        border-radius: 70px;
+        border-radius: 30px;
+        cursor: pointer;
+        text-decoration-line: none;
+        color: #ffffff;
       }
 
+      .content {
+        display: inline-flex;
+      }
+
+      .indice {
+        font-family: 'Kanit', sans-serif;
+      }
+
+      .indice li {
+        display: inline;
+        margin-right: 50px;
+        list-style-type: none;
+      }
+
+      .sombra		{
+        background: url(sombra.png) no-repeat bottom right;
+        width: 300px;
+        height: 213px;
+      }
+  
+      .sombra img	{
+        border: rgb(255, 255, 255) solid 2px;
+      }
+
+      .cor-de-fundo {
+        background-color: #00151a;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      button:hover {
+        background-color: #00151a;
+        color:whitesmoke;
+        cursor: pointer;
+        border-radius: 30px
+      }
+
+      .article {
+        padding: 0 40px;
+      }
+
+      .article-small {
+        display: inline-block;
+        width: 30%;
+        margin: 0 10px;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+      }
