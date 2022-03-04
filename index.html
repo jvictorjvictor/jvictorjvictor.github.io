@@ -3,70 +3,89 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>-Portfolio JV</title>
+  <title>- Portfólio JV</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div id="fonte-h1">
-    <h1>João Victor Vieira</h1>
+  <div class="cor-de-fundo">
+    <header>
+      <div id="fonte-h1">
+        <h1>João Victor Vieira</h1>
+      </div>
+    </header>
+    <nav class="indice-clicavel">
+      <div class="indice">
+        <ul>
+          <li><a href="#hobbies" style="text-decoration:none"><button>Minhas paixões</button></a></li>
+          <li><a href="#Possíveis" style="text-decoration:none"><button>Possíveis áreas de atuação</button></a></li>
+          <li><a href="#contato" style="text-decoration:none"><button>Contato</button></a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <hr>
   </div>
   <br>
-
-  <div class="description">
-    <img class="img" src="/IMG_20211224_060231.jpg" alt="É o que temos pra hoje..." width="150px">
-    <div class="paragraph">
-      <p>
-        Sou mineiro, nascido em Juiz de Fora, aspirante a <em> Full Stack Web Developer</em> pela
-        <strong><em>Trybe</strong></em> e <strong>fascinado</strong> por esse mundo sem fronteiras que é a área de TI!
-      </p>
+  <main>
+    <div class="description">
+      <div class="sombra"><img class="img" src="/IMG_20211224_060231.jpg" alt="É o que temos pra hoje..." width="150px">
+      </div>
+      <div class="paragraph">
+        <p>
+          Sou mineiro, nascido em Juiz de Fora, aspirante a <em> Full Stack Web Developer</em> pela
+          <strong><em>Trybe</strong></em> e <strong>fascinado</strong> por esse mundo sem fronteiras que é a área de TI!
+        </p>
+      </div>
     </div>
-  </div>
+  </main>
   <br>
-  <h2>
-    <strong><em>Minhas principais habilidades</strong></em>:
-  </h2>
-  <ul>
-    <li>Boa capacidade analítica</li>
-    <li>Boa capacidade criativa</li>
-    <li><strong>Facilidade para aprendizagem</strong></li>
-    <li>Resiliência</li>
-    <li><em>un poquito</em> de HTML & CSS</li>
-  </ul>
-  <br>
-  <h2><strong><em>Índice:</h2></em></strong>
-  <ol class="indice-clicavel">
-    <li><a href="#hobbies">Meus hobbies</a></li>
-    <li><a href="#Possíveis">Possíveis áreas de atuação</a></li>
-    <li><a href="#contato">Contato</a></li>
-  </ol>
-  <br>
-  <h2 id="hobbies"><strong><em>Meus hobbies</em></strong>:</h2>
-  <ol>
-    <li>Jogar CS: GO</li>
-    <li>Estudar História e Geopolítica</li>
-    <li>Artes Marciais</li>
-    <li>Tecnologia</li>
-  </ol>
-  <br>
-  <h2 id="Possíveis"><strong><em>Possíveis áreas de atuação</em></strong>:</h2>
-  <ul>
-    <li>Web Development</li>
-    <li>CyberSecurity</li>
-    <li>Mobile Development</li>
-    <li>Full Stack; Front-End; Back-End</li>
-  </ul>
-  <br>
-  <br>
-  <p id="contato" class="indice-clicavel"><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-vieira-7a8109186/"
-      target="_blank">Você pode me encontrar aqui;</a></p>
-  <p id="github" class="indice-clicavel"><a href="https://github.com/jvictorjvictor" target="_blank">Meus projetos;</a>
-  </p>
-  <br>
-  <a href="https://www.hltv.org/" target="_blank" class="indice-clicavel">Melhor site sobre Counter Strike: GO</a>
+  <section class="article">
+    <article class="small-article">
+      <h2>
+        <strong><em>Minhas principais habilidades</strong></em>:
+      </h2>
+
+      <ul>
+        <li>Boa capacidade analítica</li>
+        <li>Boa capacidade criativa</li>
+        <li><strong>Facilidade para aprendizagem</strong></li>
+        <li>Resiliência</li>
+        <li><em>un poquito</em> de HTML & CSS</li>
+      </ul>
+    </article>
+    <article class="small-article">
+      <h2 id="hobbies"><strong><em>Minhas paixões</em></strong>:</h2>
+
+      <ol>
+        <li>Jogar CS: GO</li>
+        <li>Estudar História e Geopolítica</li>
+        <li>Artes Marciais</li>
+        <li>Tecnologia</li>
+      </ol>
+    </article>
+    <article class="small-article">
+      <h2 id="Possíveis"><strong><em>Possíveis áreas de atuação</em></strong>:</h2>
+
+      <ul>
+        <li>Web Development</li>
+        <li>CyberSecurity</li>
+        <li>Mobile Development</li>
+        <li>Full Stack; Front-End; Back-End</li>
+      </ul>
+    </article>
+  </section>
   <br>
   <br>
-  <a href="#Foto-perfil" class="indice-clicavel">Clique sem medo</a>
+  <hr>
+  <br>
+  <footer>
+    <p id="contato"><a href="https://github.com/jvictorjvictor" target="_blank"><img src="/icone-github-verte.png"
+        class="media-object  img-responsive img-thumbnail" width="50" height="50"></a>
+    <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-vieira-7a8109186/" target="_blank"><img src="/linkedin.png"
+        class="media-object  img-responsive img-thumbnail" width="45" height="45"></a></p>
+  </footer>
 </body>
 
 </html>
